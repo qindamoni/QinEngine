@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5F21E41AE898B800C990BA /* Math3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F21E21AE898B800C990BA /* Math3d.cpp */; };
+		9C5F21E51AE898B800C990BA /* Math3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5F21E31AE898B800C990BA /* Math3d.h */; };
+		9C700B381AE7E0BC00410CBF /* Qin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C700B361AE7E0BC00410CBF /* Qin.cpp */; };
+		9C700B391AE7E0BC00410CBF /* Qin.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C700B371AE7E0BC00410CBF /* Qin.h */; };
+		9C700B461AE7F54500410CBF /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C700B441AE7F54500410CBF /* Application.cpp */; };
+		9C700B471AE7F54500410CBF /* Application.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C700B451AE7F54500410CBF /* Application.h */; };
+		9C700B511AE7FF4E00410CBF /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C700B4F1AE7FF4E00410CBF /* Controller.cpp */; };
+		9C700B521AE7FF4E00410CBF /* Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C700B501AE7FF4E00410CBF /* Controller.h */; };
+		9C700B551AE7FF8100410CBF /* Base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C700B531AE7FF8100410CBF /* Base.cpp */; };
+		9C700B561AE7FF8100410CBF /* Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C700B541AE7FF8100410CBF /* Base.h */; };
+		9C700B591AE8035800410CBF /* GLProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C700B571AE8035800410CBF /* GLProgram.cpp */; };
+		9C700B5A1AE8035800410CBF /* GLProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C700B581AE8035800410CBF /* GLProgram.h */; };
+		9C700B5F1AE8082A00410CBF /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C700B5E1AE8082A00410CBF /* libglfw3.a */; };
+		9C700B6B1AE80B2200410CBF /* View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C700B691AE80B2200410CBF /* View.cpp */; };
+		9C700B6C1AE80B2200410CBF /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C700B6A1AE80B2200410CBF /* View.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C5F21E21AE898B800C990BA /* Math3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Math3d.cpp; path = Qin/Math/Math3d.cpp; sourceTree = "<group>"; };
+		9C5F21E31AE898B800C990BA /* Math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Math3d.h; path = Qin/Math/Math3d.h; sourceTree = "<group>"; };
+		9C700B171AE7DEA200410CBF /* Qin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = Qin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C700B361AE7E0BC00410CBF /* Qin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Qin.cpp; sourceTree = "<group>"; };
+		9C700B371AE7E0BC00410CBF /* Qin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qin.h; sourceTree = "<group>"; };
+		9C700B441AE7F54500410CBF /* Application.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Application.cpp; path = Qin/Core/Application.cpp; sourceTree = "<group>"; };
+		9C700B451AE7F54500410CBF /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Application.h; path = Qin/Core/Application.h; sourceTree = "<group>"; };
+		9C700B4F1AE7FF4E00410CBF /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Controller.cpp; path = Qin/Core/Controller.cpp; sourceTree = "<group>"; };
+		9C700B501AE7FF4E00410CBF /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = Qin/Core/Controller.h; sourceTree = "<group>"; };
+		9C700B531AE7FF8100410CBF /* Base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Base.cpp; path = Qin/Core/Base.cpp; sourceTree = "<group>"; };
+		9C700B541AE7FF8100410CBF /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base.h; path = Qin/Core/Base.h; sourceTree = "<group>"; };
+		9C700B571AE8035800410CBF /* GLProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GLProgram.cpp; path = Qin/Render/GLProgram.cpp; sourceTree = "<group>"; };
+		9C700B581AE8035800410CBF /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLProgram.h; path = Qin/Render/GLProgram.h; sourceTree = "<group>"; };
+		9C700B5E1AE8082A00410CBF /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = Vendor/glfw3/prebuilt/mac/libglfw3.a; sourceTree = "<group>"; };
+		9C700B691AE80B2200410CBF /* View.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = View.cpp; path = Qin/Core/View.cpp; sourceTree = "<group>"; };
+		9C700B6A1AE80B2200410CBF /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View.h; path = Qin/Core/View.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C700B141AE7DEA200410CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C700B5F1AE8082A00410CBF /* libglfw3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5F21E11AE8989600C990BA /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F21E21AE898B800C990BA /* Math3d.cpp */,
+				9C5F21E31AE898B800C990BA /* Math3d.h */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		9C700B0E1AE7DEA200410CBF = {
+			isa = PBXGroup;
+			children = (
+				9C700B361AE7E0BC00410CBF /* Qin.cpp */,
+				9C700B371AE7E0BC00410CBF /* Qin.h */,
+				9C700B321AE7E07600410CBF /* Vendor */,
+				9C700B311AE7E06C00410CBF /* Qin */,
+				9C700B181AE7DEA200410CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C700B181AE7DEA200410CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C700B171AE7DEA200410CBF /* Qin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C700B311AE7E06C00410CBF /* Qin */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F21E11AE8989600C990BA /* Math */,
+				9C700B341AE7E08700410CBF /* Render */,
+				9C700B331AE7E07D00410CBF /* Core */,
+			);
+			name = Qin;
+			sourceTree = "<group>";
+		};
+		9C700B321AE7E07600410CBF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9C700B351AE7E09600410CBF /* glfw3 */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		9C700B331AE7E07D00410CBF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9C700B441AE7F54500410CBF /* Application.cpp */,
+				9C700B451AE7F54500410CBF /* Application.h */,
+				9C700B4F1AE7FF4E00410CBF /* Controller.cpp */,
+				9C700B501AE7FF4E00410CBF /* Controller.h */,
+				9C700B531AE7FF8100410CBF /* Base.cpp */,
+				9C700B541AE7FF8100410CBF /* Base.h */,
+				9C700B691AE80B2200410CBF /* View.cpp */,
+				9C700B6A1AE80B2200410CBF /* View.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9C700B341AE7E08700410CBF /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				9C700B571AE8035800410CBF /* GLProgram.cpp */,
+				9C700B581AE8035800410CBF /* GLProgram.h */,
+			);
+			name = Render;
+			sourceTree = "<group>";
+		};
+		9C700B351AE7E09600410CBF /* glfw3 */ = {
+			isa = PBXGroup;
+			children = (
+				9C700B5B1AE803D400410CBF /* prebuilt */,
+			);
+			name = glfw3;
+			sourceTree = "<group>";
+		};
+		9C700B5B1AE803D400410CBF /* prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				9C700B5E1AE8082A00410CBF /* libglfw3.a */,
+			);
+			name = prebuilt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C700B151AE7DEA200410CBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5F21E51AE898B800C990BA /* Math3d.h in Headers */,
+				9C700B391AE7E0BC00410CBF /* Qin.h in Headers */,
+				9C700B6C1AE80B2200410CBF /* View.h in Headers */,
+				9C700B521AE7FF4E00410CBF /* Controller.h in Headers */,
+				9C700B5A1AE8035800410CBF /* GLProgram.h in Headers */,
+				9C700B471AE7F54500410CBF /* Application.h in Headers */,
+				9C700B561AE7FF8100410CBF /* Base.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C700B161AE7DEA200410CBF /* Qin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C700B1B1AE7DEA200410CBF /* Build configuration list for PBXNativeTarget "Qin" */;
+			buildPhases = (
+				9C700B131AE7DEA200410CBF /* Sources */,
+				9C700B141AE7DEA200410CBF /* Frameworks */,
+				9C700B151AE7DEA200410CBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qin;
+			productName = Qin;
+			productReference = 9C700B171AE7DEA200410CBF /* Qin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C700B0F1AE7DEA200410CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Qin;
+				TargetAttributes = {
+					9C700B161AE7DEA200410CBF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C700B121AE7DEA200410CBF /* Build configuration list for PBXProject "Qin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C700B0E1AE7DEA200410CBF;
+			productRefGroup = 9C700B181AE7DEA200410CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C700B161AE7DEA200410CBF /* Qin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C700B131AE7DEA200410CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C700B6B1AE80B2200410CBF /* View.cpp in Sources */,
+				9C700B591AE8035800410CBF /* GLProgram.cpp in Sources */,
+				9C700B551AE7FF8100410CBF /* Base.cpp in Sources */,
+				9C700B461AE7F54500410CBF /* Application.cpp in Sources */,
+				9C700B511AE7FF4E00410CBF /* Controller.cpp in Sources */,
+				9C5F21E41AE898B800C990BA /* Math3d.cpp in Sources */,
+				9C700B381AE7E0BC00410CBF /* Qin.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C700B191AE7DEA200410CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Qin",
+					"$(SRCROOT)/Vendor",
+					"$(SRCROOT)/Vendor/glfw3/include/mac",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		9C700B1A1AE7DEA200410CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Qin",
+					"$(SRCROOT)/Vendor",
+					"$(SRCROOT)/Vendor/glfw3/include/mac",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		9C700B1C1AE7DEA200410CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = NO;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/glfw3/prebuilt/mac",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+			};
+			name = Debug;
+		};
+		9C700B1D1AE7DEA200410CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = NO;
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/glfw3/prebuilt/mac",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C700B121AE7DEA200410CBF /* Build configuration list for PBXProject "Qin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C700B191AE7DEA200410CBF /* Debug */,
+				9C700B1A1AE7DEA200410CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C700B1B1AE7DEA200410CBF /* Build configuration list for PBXNativeTarget "Qin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C700B1C1AE7DEA200410CBF /* Debug */,
+				9C700B1D1AE7DEA200410CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C700B0F1AE7DEA200410CBF /* Project object */;
+}
